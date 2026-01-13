@@ -1,6 +1,6 @@
 # daily-newsletter-generator-agent
 
-![Newsletter Agent](newsletter_agent.png)
+![Newsletter Agent](newsletter-agent-demo.gif)
 
 This project is an automated newsletter generator built with an n8n workflow. It allows users to receive daily news digests based on the 5 most recent and relevant articles in a specific topic domain using Brave Search. The process is integrated seamlessly with Telegram for easy delivery.
 
