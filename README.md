@@ -21,10 +21,10 @@ This project is an automated newsletter generator built with an n8n workflow. It
 ### AI Summarization
 - Filters duplicative headlines against history and uses a LangChain-powered agent (through `meta-llama 3.3 70b model`).
 - Generates concise Telegram-friendly summaries like:
-  **"• <b>[Title]</b> <Summary> 🔗 <a href='URL'>Ler Mais</a>".**
+  `"• <b>[Title]</b> <Summary> 🔗 <a href='URL'>Ler Mais</a>".`
 
 ### Delivery
-- Using Telegram Bot API to push messages using strict HTML (<b>, <i>, <a> tags).
+- Using Telegram Bot API to push messages using strict HTML (`<b>`, `<i>`, `<a>` tags).
 
 ![Newsletter](newsletter.png)
 
