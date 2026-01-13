@@ -1,6 +1,8 @@
 # daily-newsletter-generator-agent
 
-This project is an advanced, automated newsletter generator built with n8n workflows. It allows users to receive daily news digests based on the 5 most recent and relevant articles in a specific topic domain using Brave Search. The process is integrated seamlessly with Telegram for easy delivery.
+![Newsletter Agent](newsletter-agent.png)
+
+This project is an automated newsletter generator built with an n8n workflow. It allows users to receive daily news digests based on the 5 most recent and relevant articles in a specific topic domain using Brave Search. The process is integrated seamlessly with Telegram for easy delivery.
 
 ## Features
 - **Automated Scheduling**: The flow is triggered every day at 8:00 PM (user-configurable timing).
@@ -23,6 +25,8 @@ This project is an advanced, automated newsletter generator built with n8n workf
 
 ### Delivery
 - Using Telegram Bot API to push messages using strict HTML (<b>, <i>, <a> tags).
+
+![Newsletter](newsletter.png)
 
 ## Technical Highlights
 - **Memory Persistence**: Newsletter history saved in a PostgreSQL DB ensures continuous avoidance of repeated reports.
